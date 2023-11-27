@@ -66,7 +66,7 @@ del laboratorio 4 se usa la funcion del publicador para enviar los angulos al co
         pub.publish(state)
         rospy.sleep(3)
 ```
-- Por cinemática directa:
+se comprueba con cinemática directa:
 ```python
 
   def enviarAngulos(angulos):
