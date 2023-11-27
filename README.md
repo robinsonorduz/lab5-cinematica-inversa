@@ -66,7 +66,7 @@ del laboratorio 4 se usa la funcion del publicador para enviar los angulos al co
         pub.publish(state)
         rospy.sleep(3)
 ```
-se comprueba con cinemática directa:
+se comprueba:
 ```python
 
   def enviarAngulos(angulos):
@@ -84,4 +84,4 @@ se comprueba con cinemática directa:
 
 ```
 # Definir los puntos de la trayectoria que va a describir el robot:
-
+Se tomaron las medidas de la base de madera del robot para saber el tamaño de los dibujos y se transladaron esas medidas a autocad para diseñar alli las trayectorias
