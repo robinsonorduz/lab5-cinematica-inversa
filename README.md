@@ -84,4 +84,8 @@ se comprueba:
 
 ```
 # Definir los puntos de la trayectoria que va a describir el robot:
-Se tomaron las medidas de la base de madera del robot para saber el tamaño de los dibujos y se transladaron esas medidas a autocad para diseñar alli las trayectorias
+Se tomaron las medidas de la base de madera del robot para saber el tamaño de los dibujos y se transladaron esas medidas a autocad para diseñar alli las trayectorias:
+https://github.com/robinsonorduz/lab5-cinematica-inversa/commit/842c2661f8ed4560b009325df99fe2f44c27edab
+de este boceto se obtiene una tabla que contiene las coordenadas x, y,z ; la coordenada z depende de que parte de la trayectoria dibuja y cual no.
+Luego se configura una posicion de home:
+
