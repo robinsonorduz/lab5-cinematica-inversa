@@ -13,4 +13,5 @@ Este paquete crea los nodos para acceder a los servicios de los motores dinamixe
 se instala para pyton, y permite dibujar las posiciones articulares del manipulador en una grafica que se ve en el PC.
 # Cinematica inversa:
 https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/cin.%20inversa.png
+
 A partir de relaciones trigonometricas, se obtienen las ecuaciones que dan los angulos de articulacion a partir de las coordenadas del TCP y la longitud de los eslabones:
