@@ -114,11 +114,7 @@ https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/home.png
         print("1. Trazar alcance máximo")
         print("2. Trazar alcance mínimo")
         print("3. Iniciales de los nombres")
-        print("4. Triangulo")
-        print("5. Circulo")
-        print("6. Lineas paralelas")
-        print("7. Puntos equidistantes")
-        print("8. Figura")
+        print("4. Figura")
 
         tarea=int(input())
 
@@ -135,30 +131,8 @@ https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/home.png
             puntos=[[0.048,-0.2645,0.06],[0.048,-0.2645,0.0],[0.023,-0.1955,0.0],[0.051,-0.1855,0.0],[0.064,-0.187,0.0],[0.071,-0.2065,0.0],[0.0595,-0.2175,0.0],[0.0345,-0.2265,0.0],[0.059, -0.2175,0.0],[0.090,-0.247,0.0],[0.090,-0.247,0.06],[0.102,-0.2425,0.06],[0.102,-0.2425,0.0],[0.0775,-0.176,0.0],[0.1015,-0.191,0.0],[0.110,-0.164,0.0],[0.1335,-0.230,0.0],[0.1335,-0.230,0.06]]
             enviarPosicion(puntos,True)
             enviarAngulos(posicionHome)
+       
         elif tarea==4:
-            puntos=[[0.209,-0.1645,0.06],[0.209,-0.1645,0.0],[0.157,-0.091,0.0],[0.246,-0.083,0.0],[0.209,-0.1645,0.0],[0.209,-0.1645,0.06]]
-            enviarPosicion(puntos,True)
-            enviarAngulos(posicionHome)
-        elif tarea==5:
-            angulo=0
-            puntos=[]
-            puntos.append([0.229+0.04*np.cos(np.deg2rad(24)),-0.0008+0.04*np.sin(np.deg2rad(24)),0.06])
-
-            for o in range(0,17):
-                angulo=angulo+24
-                puntos.append([0.229+0.04*np.cos(np.deg2rad(angulo)),-0.0008+0.04*np.sin(np.deg2rad(angulo)),0.0])
-            puntos.append([0.229+0.04*np.cos(np.deg2rad(o)),-0.0008+0.04*np.sin(np.deg2rad(o)),0.06])
-            enviarPosicion(puntos,True)
-            enviarAngulos(posicionHome)
-        elif tarea==6:
-            puntos=[[0.170,0.072,0.08],[0.170,0.072,0.0],[0.2535,0.091,0.0],[0.2535,0.091,0.08],[0.166,0.090,0.08],[0.166,0.090,0.0],[0.2495,0.108,0.0],[0.2495,0.108,0.08],[0.162,0.107,0.08],[0.162,0.107,0.0],[0.246,0.126,0.0],[0.246,0.126,0.08]]
-            enviarPosicion(puntos,True)
-            enviarAngulos(posicionHome)
-        elif  tarea==7:
-            puntos=[[0.141,0.1285,0.06],[0.141,0.1285,0.0],[0.141,0.1285,0.06],[0.130,0.167,0.06],[0.130,0.167,0.0],[0.130,0.167,0.06],[0.169,0.157,0.06],[0.169,0.157,0.01],[0.169,0.157,0.06],[0.158,0.196,0.06],[0.158,0.196,0.01],[0.158,0.196,0.06],[0.1965,0.186,0.06],[0.1965,0.186,0.01],[0.1965,0.186,0.06]]
-            enviarPosicion(puntos,True)
-            enviarAngulos(posicionHome)
-        elif tarea==8:
             angulo=0
             puntos=[]
             puntos.append([0.068+0.04*np.cos(np.deg2rad(24)),0.227+0.04*np.sin(np.deg2rad(24)),0.10])
@@ -187,4 +161,5 @@ https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/home.png
             break
 
 ```
- 
+ # conclusiones:
+ -por la construccion del robot, el robot describe la trayactoria que se le pide con un error visualmente notorio, que podria disminuirse dando un mayor numero de puntos o mejorando la construccion del robot.
