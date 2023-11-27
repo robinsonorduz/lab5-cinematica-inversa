@@ -161,5 +161,6 @@ https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/home.png
             break
 
 ```
+https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/resultado.jpg
  # conclusiones:
  -por la construccion del robot, el robot describe la trayactoria que se le pide con un error visualmente notorio, que podria disminuirse dando un mayor numero de puntos o mejorando la construccion del robot.
