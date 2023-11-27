@@ -91,3 +91,4 @@ https://github.com/robinsonorduz/lab5-cinematica-inversa/commit/842c2661f8ed4560
 D e este boceto se obtiene una tabla que contiene las coordenadas x, y,z ; la coordenada z depende de que parte de la trayectoria dibuja y cual no.
 Luego se configura una posicion de home:
 
+https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/home.png
