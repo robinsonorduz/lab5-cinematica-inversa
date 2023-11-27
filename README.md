@@ -15,3 +15,11 @@ se instala para pyton, y permite dibujar las posiciones articulares del manipula
 https://github.com/robinsonorduz/lab5-cinematica-inversa/blob/main/cin.%20inversa.png
 
 A partir de relaciones trigonometricas, se obtienen las ecuaciones que dan los angulos de articulacion a partir de las coordenadas del TCP y la longitud de los eslabones:
+```python
+  xaux=np.sqrt(x**2+y**2)-0.110
+    costheta3=(xaux**2+zaux**2-l1**2-l2**2)/(2*l1*l2)
+    sentheta3=np.sqrt(1-costheta3**2)
+    theta3=np.arctan2(sentheta3, costheta3)
+theta2=(np.arctan2(zaux,xaux)+np.arctan2(l2*sentheta3, l1+l2*costheta3))
+theta4=(-theta2+theta3)
+```
