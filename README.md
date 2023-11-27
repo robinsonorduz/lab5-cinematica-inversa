@@ -83,3 +83,5 @@ del laboratorio 4 se usa la funcion del publicador para enviar los angulos al co
     rospy.sleep(3)
 
 ```
+# Definir los puntos de la trayectoria que va a describir el robot:
+
